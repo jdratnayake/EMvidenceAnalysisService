@@ -1,0 +1,4 @@
+*cfile
+*.npy
+*.DS_Store
+*.gz

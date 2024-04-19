@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  analysis-service:
+    container_name: analysis-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7070:80"
+    volumes:
+      - .:/app
